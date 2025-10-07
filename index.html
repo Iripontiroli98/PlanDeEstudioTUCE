@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan de estudio interactivo Tec. Universitaria en Comercio Electronico</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="CSS/estilos.css" />
+      <link rel="icon" href="/favicon_io/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+<h1>Tec. universitaria en Comercio Electronico</h1>
+<button onclick="reiniciarProgreso()" class="reiniciar-btn">Reiniciar</button>
+  <div id="contador" class="contador-box">
+    Regulares: <span id="count-regular">0</span> |
+    Aprobadas: <span id="count-aprobado">0</span>
+  </div>
+
+
+  <div class="malla-grid">
+    <!-- Primer Año -->
+    <div class="modulo" id="Primer-año">
+      <h2>1er año</h2>
+      <div class="asignatura" id="tecysoc">Tecnologia y Sociedad</div>
+      <div class="asignatura" id="ingles1">Inglés I</div>
+      <div class="asignatura" id="eco">Principios de Economia</div>
+      <div class="asignatura" id="com">Comunicación Institucional</div>
+      <div class="asignatura" id="int">Internet: Infraestructura y redes</div>
+      <div class="asignatura" id="sem">Semántica de las interfaces</div>
+      <div class="asignatura" id="comercio">Introducción al comercio electrónico</div>
+      <div class="asignatura" id="usabilidad">Usabilidad, seguridad y Estándares Web</div>
+      <div class="asignatura" id="ingles2">Inglés II</div>
+    </div>
+
+    <!-- Segundo Año -->
+    <div class="modulo" id="Segundo-año">
+      <h2>2do Año</h2>
+      <div class="asignatura bloqueado" id="investigacion">Investigación de mercado</div>
+      <div class="asignatura bloqueado" id="marco">Marco legal de negocios electrónicos</div>
+      <div class="asignatura bloqueado" id="gestion">Gestión del conocimiento</div>
+      <div class="asignatura bloqueado" id="desarrollo">Desarrollo Web</div>
+      <div class="asignatura bloqueado" id="formulacion">Formulación, incubación y evaluación de proyectos</div>
+      <div class="asignatura bloqueado" id="metricas">Métricas del mundo digital</div>
+      <div class="asignatura bloqueado" id="productos">Desarrollo de Productos y Servicios</div>
+      <div class="asignatura bloqueado" id="comunicacion">Taller de Comunicación</div>
+      <div class="asignatura bloqueado" id="desarrollo2">Desarrollos para Dispositivos móviles</div>
+    </div>
+
+
+
+    <!-- Tercer Año -->
+    <div class="modulo" id="Tercer-año">
+      <h2>3er año</h2>
+      <div class="asignatura bloqueado" id="calidad">Calidad y Servicio al Cliente</div>
+      <div class="asignatura bloqueado" id="marketing">Marketing digital</div>
+      <div class="asignatura bloqueado" id="taller">Taller de Práctica Integradora</div>
+      <div class="asignatura bloqueado" id="comp">Competencias emprendedoras</div>
+      <div class="asignatura bloqueado" id="proyectos">Gestión de Proyectos</div>
+    </div>
+
+  </div>
+  <div class="leyenda">
+    <span class="color-morado"></span> Cursando
+    <span class="color-aprobado"></span> Aprobadas
+  </div>
+
+    <footer>
+    <p> Desarrollado con fines educativos por Iripontiroli98 </p>
+  </footer>
+    
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
